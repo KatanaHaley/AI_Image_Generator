@@ -6,6 +6,12 @@
     font-family: 'Inter', sans-serif;
 }
 
+@layer components {
+    .sidebar-icon {
+        @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg  ;
+    }
+}
+
 @media screen and (min-width: 480px) {
     .card:nth-child(7n + 1) {
         grid-column: auto/span 2;
@@ -18,6 +24,6 @@
 }
  
 .prompt::-webkit-scrollbar-thumb {
-  background-color: #666e75;
+  background-color: #10B78B;
   border-radius: 5px;
 }
