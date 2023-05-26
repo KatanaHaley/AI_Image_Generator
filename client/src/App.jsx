@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { logo } from './assets';
-import { Home, CreatePost } from './pages';
+import { Home, CreatePost, Upload } from './pages';
 import Sidebar from './components/Sidebar';
 
 const App = () => {
@@ -21,6 +21,7 @@ const App = () => {
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/create-post" element={<CreatePost />} />
+    <Route path="/upload" element={<Upload />} />
   </Routes>
 
  </main>

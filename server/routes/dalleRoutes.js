@@ -5,6 +5,8 @@ import { Configuration, OpenAIApi } from 'openai';
 dotenv.config();
 
 const router = express.Router();
+const app = express();
+
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
@@ -34,5 +36,7 @@ router.route('/').post(async (req, res) => {
     res.status(500).send(error?.response.data.error.message || 'Something went wrong');
   }
 });
+
+
 
 export default router;
