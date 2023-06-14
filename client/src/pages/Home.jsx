@@ -63,7 +63,7 @@ const Home = () => {
     <>
       <div className="ml-20 mb-10">
         <div className="place-content-around ">
-          <h1 className="font-extrabold text-[#222328] text-[45px] text-center text-white">AI Image Generator: Convert Text into Stunning Images</h1>
+          <h1 className="font-extrabold text-[#222328] text-[45px] text-center text-white">AI Image Creator: Convert Text into Stunning Images</h1>
           <p className="p-10 m-1 text-[#32CD32] text-[20px] text-center max-w-screen">Generate an imaginative image through DALL-E AI and share it with the community</p>
         </div>
 
