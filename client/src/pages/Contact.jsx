@@ -14,8 +14,9 @@ function ContactForm() {
     <h2 className="font-extrabold text-white text-[35px]">
       Contact me
     </h2>
-    <p className="mt-8 text-white text-[14px] mb-5">
-      Thanks for visiting Imaginarium! I'm the developer, feel free to reach me at the contact form below.
+    <p className="mt-8 text-white text-[14px] mb-5 font-mono font-light text-lg">
+      Thanks for visiting IMAGINARIUM!
+      I'm the developer, feel free to reach me at the contact form below.
     </p>
       <form className="contact" onSubmit={handleSubmit}>
       <input
