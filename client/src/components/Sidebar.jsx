@@ -7,6 +7,7 @@ import { BiArchive } from "react-icons/bi";
 import { CiCamera } from "react-icons/ci";
 import { AiOutlineHeart } from "react-icons/ai";
 import { GiBrainTentacle } from "react-icons/gi";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Sidebar = () => {
   return (
@@ -22,9 +23,14 @@ const Sidebar = () => {
         <SideBarIcon icon={<BiArchive size="28" color="pink"/>} />
         <Link to="/upload">
         <SideBarIcon icon={<CiCamera size="28" color="red" />} />
+        </Link> */}
+        <div className="fixed bottom-20 ml-6 items-center justify-center flex flex-col">
+        <Link to="/contact">
+        <SideBarIcon icon={<AiOutlineMail size="35" color="#2FB52F" />} />
         </Link>
-        <SideBarIcon icon={<AiOutlineHeart size="28" color="purple" />} />
- */}
+        </div>
+       {/* <SideBarIcon icon={<AiOutlineHeart size="28" color="purple" />} /> */}
+ 
 
     </div>
   )

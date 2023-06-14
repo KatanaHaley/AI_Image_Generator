@@ -1,9 +1,12 @@
 import Home from './Home';
 import CreatePost from './CreatePost';
-import Upload from './Upload';
+import Contact from './Contact';
+
+// import Upload from './Upload';
 
 export {
     Home,
     CreatePost,
-    Upload
+    Contact
+    // Upload
 }
